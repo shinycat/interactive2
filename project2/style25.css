@@ -1,0 +1,114 @@
+a {
+	font-size: 21px;
+	font-family: Courier;
+	text-decoration: none;
+	border-bottom: dashed 1px violet;
+	line-height: 40px;
+	color: #7FFFD4;
+	/*background-image: url('images/ninja.jpeg');*/
+	/*background-attachment: fixed;*/
+}
+
+body {
+	background-color: #F0F8FF;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: Courier;
+	color: #A9A9A9;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: Courier;
+	color: #A9A9A9;
+	margin: auto 0; 
+}
+
+p { 
+ 	font-family: Arial;
+ 	font-size: 11px;
+}
+
+h6 {
+	margin: 0px auto;
+}
+
+.container1 {
+	width: 400px;
+	height: 175px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+}
+
+.container2 {
+	width: 175px;
+	height: 250px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+
+.container3 {
+	width: 175px;
+	height: 250px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+
+.container4 {
+	width: 175px;
+	height: 250px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+
+.container5 {
+	width: 175px;
+	height: 250px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+
+.container6 {
+	width: 175px;
+	height: 250px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+
+.container7 {
+	height: 500px;
+    width: 100%;
+    display: inline-block;
+    padding: 25px 25px 25px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
