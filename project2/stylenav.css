@@ -1,23 +1,39 @@
-a {
-	font-size: 21px;
-	font-family: Courier;
+/*navigation*/
+
+/*.nav {
+	top:0;
+	left:0;
+	position:fixed;
+	font-family: sans-serif;
+	font-size: 7pt;
 	text-decoration: none;
-	border-bottom: dashed 1px violet;
-	line-height: 40px;
-	color: #7FFFD4;
-	/*background-image: url('images/ninja.jpeg');*/
-	/*background-attachment: fixed;*/
+	border: dotted 1px violet; 
+	padding: 10px;
+}*/
+
+/*.nav a:visited {
+	text-decoration: none;
 }
 
-body {
-	background-color: #F0F8FF;
+.nav a:hover {
+	text-decoration: none;
+	color: green;
 }
 
+.nav a:link {
+	text-decoration: none;
+	color: green;
+}
 
+.nav a:visited {
+	text-decoration: none;
+	color: green;
+}*/
 
-
-
-
+.nav {
+	text-decoration: none; 
+	border: dotted 1px violet;
+}
 
 
 
