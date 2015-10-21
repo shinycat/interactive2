@@ -43,6 +43,16 @@ h6 {
 	color: #808080;
 	border: dashed 1px violet;
 	padding: 10px;
+	display: inline-block;
+}
+
+.poem {
+	width: 170px;
+	height: 121px;
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 25px 20px 6px 20px;
+	display: inline-block;
 }
 
 .container2 {
@@ -91,8 +101,8 @@ h6 {
 }
 
 .container7 {
-	height: 500px;
-    width: 100%;
+	height: auto;
+    width: auto;
     display: inline-block;
     padding: 25px 25px 25px 200px;
 }
