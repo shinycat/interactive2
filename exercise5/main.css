@@ -1,0 +1,73 @@
+/*-----------------------------------------base*/
+
+body { background: black; }
+
+/*-----------------------------------------media queries*/
+
+/*body { background: url( '.dog.jpg'); }*/
+
+h1 { 
+  font-family: Gill Sans;
+  font-size: 100px;
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  body { background: url('bwraining.gif'); }
+  h1 {
+    font-family: Gill Sans;
+    font-size: 80px;
+    color: white;
+    margin-top: 550px;
+    margin-left: 40px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body { background: url('vanillaice.gif'); }
+  h1 {
+    font-size: 60px;
+    font-family: Gill Sans;
+    color: white;
+    margin-top: 550px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  body { background: url('chinesewriting.gif'); }
+  h1 {
+    font-size: 40px;
+    font-family: Gill Sans;
+    color: white;
+    margin-top: 550px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body { background: url('eyeballs.gif'); }
+  h1 {
+    font-size: 20px;
+    font-family: Gill Sans;
+    color: white;
+    margin-top: 550px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body { background: url('glitter.gif'); }
+  h1 {
+    font-size: 10px;
+    font-family: Gill Sans;
+    color: white;
+    margin-top: 550px;
+    margin-left: 40px;
+  }
+}
+
+
+
+
+
