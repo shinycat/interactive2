@@ -1,19 +1,7 @@
 /*-----------------------------------------base*/
 
-body { background: black; }
-
-/*-----------------------------------------media queries*/
-
-/*body { background: url( '.dog.jpg'); }*/
-
-h1 { 
-  font-family: Gill Sans;
-  font-size: 100px;
-  color: white;
-}
-
-@media screen and (max-width: 1280px) {
-  body { background: url('bwraining.gif'); }
+body 
+{ background: url('bwraining.gif'); }
   h1 {
     font-family: Gill Sans;
     font-size: 80px;
@@ -22,7 +10,20 @@ h1 {
     margin-left: 40px;
 
   }
-}
+
+/*-----------------------------------------media queries*/
+
+/*body { background: url( '.dog.jpg'); }*/
+
+/*h1 { 
+  font-family: Gill Sans;
+  font-size: 100px;
+  color: white;
+}*/
+
+/*@media screen and (max-width: 1280px) {
+  body 
+}*/
 
 @media screen and (max-width: 1024px) {
   body { background: url('vanillaice.gif'); }
