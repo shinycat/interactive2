@@ -1,0 +1,23 @@
+
+.containerh {
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+
+
+.h1 {
+	line-height: 8px;
+	position: absolute;
+}
+.h2 {
+	line-height: 8px;
+	position: absolute;
+	left: 200px;
+}
+.h3 {
+	line-height: 8px;
+	position: absolute;
+	left: 76px;
+	top: 120px;
+}
