@@ -1,3 +1,9 @@
+body
+	{
+	background-color: CC9999;
+	}
+
+/*------------------------------ letter h*/
 
 .containerh {
 	width: 600px;
@@ -5,19 +11,68 @@
 	position: relative;
 }
 
-
-.h1 {
+.v1
+	{
 	line-height: 8px;
 	position: absolute;
-}
-.h2 {
+	text-align: right;
+	left: 10px;
+	height: 310px;
+	width: 115px;
+	color: white;
+	}
+
+.v2 
+	{
 	line-height: 8px;
 	position: absolute;
 	left: 200px;
-}
-.h3 {
+	text-align: right;
+	color: white;
+	}
+
+.hbar1 
+	{
 	line-height: 8px;
 	position: absolute;
 	left: 76px;
 	top: 120px;
+	text-align: right;
+	color: white;
+	}
+
+/*------------------------------ letter c*/	
+
+.containerhc {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
 }
+
+.v1
+	{
+	line-height: 8px;
+	position: absolute;
+	text-align: right;
+	left: 10px;
+	height: 310px;
+	width: 115px;
+	color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
