@@ -1,17 +1,143 @@
 body
 	{
-	background-color: CC9999;
+	background-color: black;
 	}
 
 /*------------------------------ letter h*/
 
-.containerh {
+.container-h {
 	width: 600px;
 	height: 400px;
 	position: relative;
 }
 
-.v1
+/*------------------------------ letter c*/	
+
+.container-c {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter d*/	
+
+.container-d {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter e*/	
+
+.container-e {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter i*/	
+
+.container-i {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter l*/	
+
+.container-l {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter o*/	
+
+.container-o {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter p*/	
+
+.container-p {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter t*/	
+
+.container-t {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter u*/	
+
+.container-u {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter j*/	
+
+.container-j {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter f*/	
+
+.container-f {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter b*/	
+
+.container-b {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter g*/	
+
+.container-g {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+
+/*------------------------------ letter k*/	
+
+.container-k {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	color: white;
+}
+/*------------------------------  vertical lines*/
+.v1 /*h-left,c-left, d-left,*/
 	{
 	line-height: 8px;
 	position: absolute;
@@ -22,7 +148,7 @@ body
 	color: white;
 	}
 
-.v2 
+.v2 /*h-right*/
 	{
 	line-height: 8px;
 	position: absolute;
@@ -31,7 +157,61 @@ body
 	color: white;
 	}
 
-.hbar1 
+.v3 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 250px;
+	text-align: left;
+	color: white;
+	}
+
+.v4 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 202px;
+	text-align: right;
+	color: white;
+	}
+
+.v5 
+	{
+	line-height: 8px;
+	position: absolute;
+	text-align: right;
+	left: 110px;
+	height: 310px;
+	width: 115px;
+	color: white;
+	}
+
+.v6 
+	{
+	line-height: 8px;
+	position: absolute;
+	text-align: right;
+	left: 10px;
+	top: 152px;
+	height: 310px;
+	width: 115px;
+	color: white;
+	}
+
+.v7 /*h-right*/
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 200px;
+	top: 144px;
+	text-align: right;
+	color: white;
+	}
+
+
+
+/*------------------------------  horizontal lines*/
+.hbar1 /*h-middle*/
 	{
 	line-height: 8px;
 	position: absolute;
@@ -41,36 +221,376 @@ body
 	color: white;
 	}
 
-/*------------------------------ letter c*/	
-
-.containerhc {
-	width: 600px;
-	height: 400px;
-	position: relative;
-	color: white;
-}
-
-.v1
+.hbar2 /*h-middle*/
 	{
 	line-height: 8px;
 	position: absolute;
+	left: 180px;
+	top: 128px;
 	text-align: right;
-	left: 10px;
-	height: 310px;
-	width: 115px;
+	color: white;
+	}
+	
+
+.hbartop /*c-top, d-top,*/
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 109px;
+	top: 0px;
+	text-align: left;
 	color: white;
 	}
 
+.hbarbottom /*c-bottom, d-bottom,*/
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 109px;
+	top: 272px;
+	text-align: right;
+	color: white;
+	}
 
+.hbartop-2 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	text-align: right;
+	color: white;
+	}
 
+/*------------------------------  diagonal lines*/
 
+/*.d1 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 260px;
+	text-align: right;
+	color: white;
+	}
 
+.d2 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 232px;
+	top: 8px;
+	text-align: right;
+	color: white;
+	}
 
+.d3 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 220px;
+	top: 16px;
+	text-align: right;
+	color: white;
+	}
+.d4 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 225px;
+	top: 24px;
+	text-align: right;
+	color: white;
+	}
+.d5 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 200px;
+	top: 32px;
+	text-align: right;
+	color: white;
+	}
 
+.d6 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 40px;
+	text-align: right;
+	color: white;
+	}
 
+.d7 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 197px;
+	top: 48px;
+	text-align: right;
+	color: white;
+	}
 
+.d8 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 173px;
+	top: 56px;
+	text-align: right;
+	color: white;
+	}
 
+.d9 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 166px;
+	top: 64px;
+	text-align: right;
+	color: white;
+	}
 
+.d10 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 176px;
+	top: 72px;
+	text-align: right;
+	color: white;
+	}
+
+.d11 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 152px;
+	top: 80px;
+	text-align: right;
+	color: white;
+	}
+
+.d12 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 143px;
+	top: 88px;
+	text-align: right;
+	color: white;
+	}
+.d13 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 96px;
+	text-align: right;
+	color: white;
+	}
+.d13 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 104px;
+	text-align: right;
+	color: white;
+	}
+.d14 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 112px;
+	text-align: right;
+	color: white;
+	}
+.d15 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 120px;
+	text-align: right;
+	color: white;
+	}
+*/
+
+/*------------------------------ diagnol lines*/	
+
+.container-diagnol-1 {
+	width: 190px;
+	height: 130px;
+	top: 27px;
+	left: 199px;
+	position: relative;
+	color: white;
+	transform: rotate(180deg);
+}
+
+.container-diagnol-2 {
+	width: 190px;
+	height: 130px;
+	top: 50px;
+	left: 199px;
+	position: relative;
+	color: white;
+	transform: rotate(180deg);
+}
+.d1 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 260px;
+	text-align: right;
+	color: white;
+	}
+
+.d2 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 230px;
+	top: 8px;
+	text-align: right;
+	color: white;
+	}
+
+.d3 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 220px;
+	top: 16px;
+	text-align: right;
+	color: white;
+	}
+.d4 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 210px;
+	top: 24px;
+	text-align: right;
+	color: white;
+	}
+.d5 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 200px;
+	top: 32px;
+	text-align: right;
+	color: white;
+	}
+
+.d6 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 190px;
+	top: 40px;
+	text-align: right;
+	color: white;
+	}
+
+.d7 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 180px;
+	top: 48px;
+	text-align: right;
+	color: white;
+	}
+
+.d8 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 170px;
+	top: 56px;
+	text-align: right;
+	color: white;
+	}
+
+.d9 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 160px;
+	top: 64px;
+	text-align: right;
+	color: white;
+	}
+
+.d10 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 150px;
+	top: 72px;
+	text-align: right;
+	color: white;
+	}
+
+.d11 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 140px;
+	top: 80px;
+	text-align: right;
+	color: white;
+	}
+
+.d12 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 130px;
+	top: 88px;
+	text-align: right;
+	color: white;
+	}
+.d13 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 120px;
+	top: 96px;
+	text-align: right;
+	color: white;
+	}
+.d14 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 110px;
+	top: 104px;
+	text-align: right;
+	color: white;
+	}
+.d15 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 100px;
+	top: 112px;
+	text-align: right;
+	color: white;
+	}
+.d16 
+	{
+	line-height: 8px;
+	position: absolute;
+	left: 90px;
+	top: 120px;
+	text-align: right;
+	color: white;
+	}
 
 
 
