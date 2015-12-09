@@ -1,0 +1,167 @@
+.container-1 { /*-------------------------- school header -----*/
+    margin-right: 50px;
+    float: right;
+}
+.container-2 {  /*-------------------------- menu list -----*/
+    width:auto;
+    height: auto;
+    position: fixed;
+    margin-top: 625px;
+    margin-left: 50px;  
+}
+
+.container-3 {  /*-------------------------- nerd girl gif -----*/
+    margin-top: 25px;
+}
+
+.container-4 {  /*-------------------------- banana gif -----*/
+    margin-top: 250px;
+    float: right;
+}
+
+.container-5 {  /*-------------------------- sandwich gif -----*/
+    margin-top: 550px;
+    float: right;
+}
+
+/*----------------------------------------- text -----*/
+
+h1 {
+    font-size: 30px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 10px;
+    text-align: left;
+    color: black;
+    margin-bottom: -30px;
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 5px;
+    text-align: left;
+    color: black;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 3px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#div1 { /*-------------------------- what paragraph -----*/
+    position: absolute;
+    top: 42px;
+    left: 223px;
+    width: 250px;
+}
+.button-what {
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+.button-what:hover {
+    background-color: #FFD700;
+}
+
+#div2 { /*-------------------------- where paragraph -----*/
+    width: 405px;
+    float: right;
+    margin-top: 100px;
+}
+.button-where {
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+}
+.button-where:hover {
+    background-color: #FFD700;
+}
+.button-where p {
+    text-align: right;
+}
+
+#div3 { /*-------------------------- why paragraph -----*/
+    width: 500px;
+    float: right;
+    margin-top: 800px;
+}
+
+.why {
+    margin-top: 700px;
+
+}
+.button-why {
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+}
+.button-why:hover {
+    background-color: #FFD700;
+}
+.button-why p {
+    text-align: right;
+}
+/*----------------------------------------- navigation -----*/
+
+#navigation {
+    padding-left:0; 
+    list-style:none; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#navigation li {
+    float:left; 
+    border-left:3px solid white; 
+}
+
+#navigation a {
+    text-decoration:underline;
+    font-size:11px;
+    padding:6px 8px;
+    color:black;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    margin:0 auto;
+    width:600px;
+    text-align:center;
+    background-color: white;
+}
+
+#navigation a:hover { 
+    background-color:#FFD700;
+    color:black;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #navigation {
+        position: static;
+    }
+
+    #navigation li {
+        float: none;    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

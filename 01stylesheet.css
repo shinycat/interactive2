@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+}
+.container1 {
+	width: 1200px;
+	height: auto;Í
+	color: #808080;
+	border: dashed 1px violet;
+	padding: 10px;
+	display: inline-block;
+}
+/*----------------------------------------- TEXT -----*/
+h1 {
+    font-size: 20px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+}
+
+a {
+    font-size: 20px;
+    font-family: Impact;
+    letter-spacing: 10px;;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/*----------------------------------------- NAVIGATION -----*/
+a {
+	font-size: 21px;
+	font-family: Courier;
+	text-decoration: none;
+	border-bottom: dashed 1px violet;
+	line-height: 40px;
+	color: #7FFFD4;
+	/*background-image: url('images/ninja.jpeg');*/
+	/*background-attachment: fixed;*/
+}

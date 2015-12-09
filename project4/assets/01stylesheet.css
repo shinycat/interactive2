@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+}
+
+/*----------------------------------------- text -----*/
+
+h1 {
+    font-size: 25px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 25px;
+    text-align: left;
+    color: black;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+/*----------------------------------------- navigation -----*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

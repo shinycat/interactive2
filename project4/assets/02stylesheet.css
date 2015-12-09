@@ -1,0 +1,207 @@
+body {
+  width: 100%;
+}
+.container-1 { /*-------------------------- school header -----*/
+    width: 470px;
+    height: 80px;
+    margin-left: 220px;
+    margin-top: 239px;
+    position: absolute;
+}
+.container-2 {  /*-------------------------- menu list -----*/
+    width:auto;
+    height: auto;
+    position: fixed;
+    margin-top: 625px;
+    margin-left: 50px;  
+}
+
+.container-3 {  /*-------------------------- nerd girl gif -----*/
+    width: 475px;
+    height: 200px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.container-4 {  /*-------------------------- banana gif -----*/
+    width: 285px;
+    height: 480px;
+    position: absolute;
+    margin-top: 419px;
+    margin-left: 955px;
+}
+
+.container-5 {  /*-------------------------- why paragraph -----*/
+    width: 475px;
+    height: 200px;
+    position: absolute;
+    margin-top:1000px;
+    margin-left: 345px;  
+}
+.container-6 {  /*-------------------------- how paragraph -----*/
+    width: 912px;
+    height: 300px;
+    position: absolute;
+    margin-top:1825px;
+    margin-left: 286px;  
+}
+
+/*----------------------------------------- text -----*/
+
+h1 {
+    font-size: 30px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 10px;
+    text-align: left;
+    color: black;
+    margin-bottom: -30px;
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 5px;
+    text-align: left;
+    color: black;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 3px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#div1 { /*-------------------------- what paragraph -----*/
+    position: absolute;
+    top: 42px;
+    left: 223px;
+    width: 250px;
+}
+.button-what {
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+.button-what:hover {
+    background-color: #FFD700;
+    background-image: url('emogi_art_scarygirl');
+}
+
+#div2 { /*-------------------------- where paragraph -----*/
+    position: absolute;
+    top: 53px;
+    left: -212px;
+    width: 405px;
+}
+.button-where {
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    position: absolute;
+    margin-left: 869px;
+        margin-top: 617px;
+}
+.button-where:hover {
+    background-color: #FFD700;
+}
+/*----------------------------------------- navigation -----*/
+
+
+
+#navigation {
+    padding-left:0; 
+    list-style:none; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#navigation li {
+    float:left; 
+    border-left:3px solid white; 
+}
+
+#navigation a {
+    text-decoration:underline;
+    font-size:11px;
+    padding:6px 8px;
+/*    background-color:#999;
+*/    color:black;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    margin:0 auto;
+    width:600px;
+    text-align:center;
+    background-color: white;
+}
+
+#navigation a:hover { 
+    background-color:#FFD700;
+    color:black;
+}
+
+
+/*a {
+    text-decoration: none;
+    color: black;
+
+}
+a.my-link {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    text-decoration: none;
+    color:white;
+    background-color:#FFD700;
+    padding:8px 8px;
+}
+
+a.my-link:hover {
+    color:#FFD700;
+}*/
+
+/*p {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 10px;
+    line-height: 1.40em;
+    margin-bottom:20px;
+}
+
+a.backward-forward-button {
+    text-decoration:none;
+    color:#3B6772;  
+    font-size:12px;
+    text-transform:uppercase;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 10px;
+    line-height: 1.40em;
+}
+
+a.backward-forward-button:hover {
+    color:#D7BF74;  
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

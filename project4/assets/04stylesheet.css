@@ -1,0 +1,87 @@
+.container-1 {
+    margin-left:300px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 10px;
+    text-align: left;
+    color: black;
+    margin-bottom: -30px;
+    padding: 0;
+}
+
+h5 {
+    font-size: 10px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 3px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    letter-spacing: 5px;
+    text-align: left;
+    color: black;
+    margin-top: 35px;
+}
+/*----------------------------------------- navigation -----*/
+
+#navigation {
+    padding-left:0; 
+    list-style:none; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#navigation li {
+    float:left; 
+    border-left:3px solid white; 
+}
+
+#navigation a {
+    text-decoration:underline;
+    font-size:11px;
+    padding:6px 8px;
+    color:black;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    margin:0 auto;
+    width:600px;
+    text-align:center;
+    background-color: white;
+}
+
+#navigation a:hover { 
+    background-color:#FFD700;
+    color:black;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #navigation {
+        position: static;
+    }
+
+    #navigation li {
+        float: none;    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
