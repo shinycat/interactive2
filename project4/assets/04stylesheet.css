@@ -1,5 +1,6 @@
 .container-1 {
-    margin-left:300px;
+    margin:0 auto;
+    width:640px;
 }
 
 h1 {
@@ -71,6 +72,10 @@ p {
 
     #navigation li {
         float: none;    
+    }
+    .container-1 img {
+        width:50%;
+    }
     }
 }
 
