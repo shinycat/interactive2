@@ -20,4 +20,21 @@ a {
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width: 600px) {
+
+    #navigation {
+        position: static;
+    }
+
+    #navigation li {
+        float: none;    
+    }
+    .iframe img {
+        width:50%;
+    }
+    }
+}
+
+
+
 
